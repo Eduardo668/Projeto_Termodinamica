@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89b94e9c-b4a9-4564-858b-3ae45e4e8edb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1uJ9UJgd0nVsuATAdWew90yaL9i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Simulador versão 2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dudus\Documents\GitHub\ProjetoDeNaturaza\Simulador2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dudus\Documents\GitHub\ProjetoDeNaturaza\Simulador2\Simulador versão 2" />
+      <recent name="C:\Users\dudus\Documents\GitHub\ProjetoDeNaturaza\Simulador2\Simulador vesão 1" />
+      <recent name="C:\Users\dudus\Documents\GitHub\ProjetoDeNaturaza\Simulador2" />
+      <recent name="C:\Users\dudus\Documents\GitHub\ProjetoDeNaturaza\Simulador2\venv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Simulador2 (1)">
+    <configuration name="Simulador2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Simulador2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulador_versao2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulador_versao2/Simulador2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Simulador2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Simulador2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulador versão 2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulador versão 2/Simulador2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simulador (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Simulador2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulador vesão 1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulador vesão 1/simulador.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simulador" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Simulador2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simulador.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Simulador2 (1)" />
+        <item itemvalue="Python.simulador (1)" />
+        <item itemvalue="Python.Simulador2" />
+        <item itemvalue="Python.simulador" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89b94e9c-b4a9-4564-858b-3ae45e4e8edb" name="Default Changelist" comment="" />
+      <created>1624372839060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624372839060</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1339" height="2" key="GridCell.Tab.0.bottom" timestamp="1624591235718">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="2" key="GridCell.Tab.0.bottom/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624591235718" />
+    <state width="1339" height="2" key="GridCell.Tab.0.center" timestamp="1624591235718">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="2" key="GridCell.Tab.0.center/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624591235718" />
+    <state width="1339" height="2" key="GridCell.Tab.0.left" timestamp="1624591235718">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="2" key="GridCell.Tab.0.left/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624591235718" />
+    <state width="1339" height="2" key="GridCell.Tab.0.right" timestamp="1624591235718">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="2" key="GridCell.Tab.0.right/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624591235718" />
+    <state width="1339" height="238" key="GridCell.Tab.1.bottom" timestamp="1624502024335">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="238" key="GridCell.Tab.1.bottom/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624502024335" />
+    <state width="1339" height="238" key="GridCell.Tab.1.center" timestamp="1624502024334">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="238" key="GridCell.Tab.1.center/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624502024334" />
+    <state width="1339" height="238" key="GridCell.Tab.1.left" timestamp="1624502024334">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="238" key="GridCell.Tab.1.left/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624502024334" />
+    <state width="1339" height="238" key="GridCell.Tab.1.right" timestamp="1624502024334">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="238" key="GridCell.Tab.1.right/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624502024334" />
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1624549643157">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup/-1366.0.1366.768/0.0.1360.768@0.0.1360.768" timestamp="1624549643157" />
+  </component>
+</project>
