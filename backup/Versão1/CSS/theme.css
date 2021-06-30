@@ -1,0 +1,104 @@
+:root{
+    --cor-principal:rgb(24, 24, 26);
+    --cor-textos:rgb(17, 16, 16);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: var(--cor-principal);
+    width: 100vw;
+    height: 3.2em;
+    display: flex;
+}
+.search_bar{
+    border-radius: 1px;
+    outline: none;
+    border: solid transparent;
+    width: 500px;
+    height: 22px;
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+.senai_logo{
+    height: 25px;
+    position: absolute;
+    top: 0.8em;
+    left: 1em;
+}
+.navegacao{
+    position: absolute;
+    left: 60em;
+    top: 35px;
+}
+li{
+    list-style-type:none;
+}
+.link_home{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: 15px;
+    
+}
+.link_home:hover{
+    color: gray;
+}
+
+.link_sobre{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+    bottom: 33px;
+}
+.link_sobre:hover{
+    color: gray;
+}
+.link_referencias{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+.link_referencias:hover{
+    color: gray;
+}
+.button_search{
+    background-color: transparent;
+    outline: none;
+    border-radius: 1px;
+    border: solid transparent;
+    width: 30px;
+    position: relative;
+    left: 200px;
+    top: 14px;
+}
+.button_search:hover{
+    background-color: rgb(0, 0, 0);
+}
+.search_icon{
+    width: 20px;
+}
+.search_box{
+    position: relative;
+    left: 90px;
+}
+
+
+
+
+
