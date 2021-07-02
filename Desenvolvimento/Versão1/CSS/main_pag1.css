@@ -189,3 +189,30 @@ body{
     background-color: rgb(65, 64, 64);
 }
 
+@media screen and (max-width:550px){
+    .header{
+        height: 10rem;
+    }
+    .nav_header{
+        width: 100%;
+        position: relative;
+        top: 3rem;
+    }
+    .link_home{
+        font-size: 30px;
+        position: relative;
+        top: -2px;
+    }
+    .link_SC{
+        font-size: 30px;
+        position: relative;
+        left: 7rem;
+        bottom: 36px;
+    }
+    .link_ref{
+        font-size: 30px;
+        position: relative;
+        left: 29rem;
+        bottom: 70px;
+    }
+}
