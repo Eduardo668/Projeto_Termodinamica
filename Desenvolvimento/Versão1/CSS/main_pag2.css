@@ -132,7 +132,7 @@ body{
     text-align: center;
     background-color: white;
     width: 750px;
-    height: 341rem;
+    height: 80rem;
     position: absolute;
     left: 18rem;
     top: 280px;
@@ -157,19 +157,21 @@ body{
     width: 100%;
     height: 10rem;
     position:absolute;
-    top: 365rem;
+    top: 105rem;
 }
 .link_anterior{
     padding: 11px;
     border-radius: 5px;
-    cursor:no-drop;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color:gray;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     position: relative;
     left: 30rem;
     top: 5.3rem;
+}
+.link_anterior:hover{
+    background-color:rgb(65, 64, 64); ;
 }
 .link_proxima:hover{
     background-color: rgb(65, 64, 64);

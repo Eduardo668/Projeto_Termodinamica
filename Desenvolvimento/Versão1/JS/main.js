@@ -12,7 +12,7 @@ const calculadoraRendimento = function(){
     let calor = document.getElementById('energia_input').value
     let display = document.getElementById('displayCalculadoraRendimento')
     let rendimento = trabalho / calor
-    display.textContent = rendimento.toFixed(4) + ""
+    display.textContent = rendimento.toFixed(2) + ""
 }
 const limparResultadoRendimento = function(){
     let display = document.getElementById('displayCalculadoraRendimento')
