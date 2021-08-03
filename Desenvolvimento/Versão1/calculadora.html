@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./CSS/main_pag3.css">
+    <link rel="shortcut icon" href="./IMAGE/icone.png" type="image/x-icon">
+</head>
+<body id="body" onscroll="opacityHeader()">
+    <div id="header_site" class="header">
+        <div class="logo_position">
+            <img style="width: 190px;" src="./IMAGE/SENAI-logo.png" alt="senai_logo">
+        </div>
+        <div>
+            <img class="termometro" src="./IMAGE/imagem_2021-06-29_143558-removebg-preview.png" alt="">
+        </div>
+        <a class="linkedin_logo" href="https://www.linkedin.com/in/eduardo-paixão-sehn/"><img class="linkedin_logo" src="./IMAGE/imagem_2021-06-29_161528-removebg-preview.png" alt=""></a>
+        <a class="git_hub_icon" href="https://github.com/Eduardo668"><img class="git_hub_icon" src="./IMAGE/images-removebg-preview.png" alt=""></a>
+        <div class="google_search_bar_position">
+            <form action="https://www.google.com.br/search?q=">
+                <input name="q" class="search_bar" type="text" placeholder="Google Search">
+                <input class="submit_button" type="submit">
+                <img class="search_icon" src="./IMAGE/imagem_2021-06-29_110640-removebg-preview.png" alt="search_icon">
+            </form> 
+        </div>
+        <nav class="nav_header">
+            <ul class="links_header">
+                <li class="li"><a class="link_home" href="./index.html">Home</a></li>
+                <li class="li"><a class="link_simulador" href="./simulador.html">Simulador</a></li>
+                <li class="li"><a class="link_calculadora" href="">Calculadora</a></li>
+                <li class="li"><a class="link_ref" href="./referencias.html">Referencias</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="topo" class="capa">
+        <img class="background_capa" src="./IMAGE/locomotiva-wallpaper.jpg" alt="">
+    </div>
+    <div class="container">
+        <h2 style="position:relative;top:30px;" class="titles">Calculadora de Rendimento</h2>
+        <div class="div_calculadoraRendimento">
+            <div id="displayCalculadoraRendimento" class="display"></div>
+            <div class="div_Trabalho">
+                <label class="qtd_trabalho">W</label>
+                <input id="trabalho_input" class="input_trabalho" type="number">
+            </div>
+           <div class="div_Energia">
+                <label class="energia_termica">Qq</label>
+                <input id="energia_input" class="input_energia" type="number">
+           </div>
+           <button class="button_calcular" onclick="calculadoraRendimento()">Calcular</button>
+           <button class="button_limpar" onclick="limparResultadoRendimento()">Limpar</button>
+           
+
+        </div>
+    </div>
+    <div class="footer">
+        <p style="font-size: 16px;color: white;font-family: Arial, Helvetica, sans-serif;
+        position: absolute;top: 2rem;left: 2rem;">
+            © Copyright 2021 <br><br>
+            Desenvolvido por Eduardo Paixão Dos Santos Sehn <br><br>
+            Contato: (48) 99158-9297 
+        </p>
+        <a class="link_topo" href="#topo">Voltar para o topo</a>
+        <nav class="change_pags">
+            <ul>
+                <li class="li"><a class="link_anterior" href="./simulador.html">Pagina Anterior</a></li>
+                <li class="li"><a class="link_proxima" href="./referencias.html">Proxima Pagina</a></li>
+            </ul>
+        </nav> 
+        <img style="width: 350px;position: relative;left: 58rem;
+        bottom: 15px;" src="./IMAGE/SENAI-logo.png" alt="">
+    </div>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
