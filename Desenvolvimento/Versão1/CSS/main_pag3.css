@@ -132,7 +132,7 @@ body{
     text-align: center;
     background-color: white;
     width: 750px;
-    height: 341rem;
+    height: 70rem;
     position: absolute;
     left: 18rem;
     top: 280px;
@@ -158,19 +158,21 @@ body{
     width: 100%;
     height: 10rem;
     position:absolute;
-    top: 365rem;
+    top: 105rem;
 }
 .link_anterior{
     padding: 11px;
     border-radius: 5px;
-    cursor:no-drop;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color:gray;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     position: relative;
     left: 30rem;
     top: 5.3rem;
+}
+.link_anterior:hover{
+    background-color:rgb(65, 64, 64); ;
 }
 .link_proxima:hover{
     background-color: rgb(65, 64, 64);
@@ -193,6 +195,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
+    outline: none;
     text-decoration: none;
     position: relative;
     left: 34rem;
@@ -202,5 +205,99 @@ body{
     background-color: rgb(65, 64, 64);
 }
 
+/* Calculadora  */
 
+.div_calculadoraRendimento{
+    background-color: rgb(33, 151, 151);
+    width: 400px;
+    border: solid 2px black;
+    border-radius: 12px;
+    height: 450px;
+    position: relative;
+    left: 180px;
+    top: 100px;
+}
+.display{
+    font-size: 60px;
+    border: solid 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    width: 360px;
+    height: 95px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.qtd_trabalho{
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 300px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 60px;
+    right: 80px;
+}
 
+.input_trabalho{
+    position: relative;
+    text-align: center;
+    border: solid 2px black;
+    font-size: 24px;
+    height: 70px;
+    outline: none;
+    width: 100px;
+    top: 150px;
+    right: 175px;
+}
+.div_Trabalho{
+    position: relative;
+    left: 40px;
+}
+.energia_termica{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    border-radius: 300px;
+    position: relative;
+    bottom: 13px;
+    left: 30px;
+}
+.div_Energia{
+    position: relative;
+    left: 100px;
+}
+.input_energia{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    border: solid 2px black;
+    font-size: 24px;
+    height: 70px;
+    outline: none;
+    width: 100px;
+    top: 76px;
+    right: 65px;
+}
+.button_calcular{
+    font-size: 30px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    right: 10px;
+}
+.button_limpar{
+    font-size: 30px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    right: 0px; 
+}
