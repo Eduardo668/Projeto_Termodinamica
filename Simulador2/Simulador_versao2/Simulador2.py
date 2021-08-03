@@ -98,7 +98,7 @@ class MaquinaTermica(pygame.sprite.Sprite):
         if self.iniciar:
             self.index1 += 0.1
             self.comecou_esquentar = True
-            print(self.time_esquentar)
+ 
 
             if self.index1 >= len(self.esquentandoAgua):
                 self.index1 = 0
@@ -199,15 +199,13 @@ botao_sprites_group.add(botao_sprites)
 
 
 while True:
-
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
             exit()
 
-        if event.type == MOUSEBUTTONUP:
+        elif event.type == MOUSEBUTTONUP:
             mouse_position = pygame.mouse.get_pos()
-            print(mouse_position)
             mouse_positionX = mouse_position[0]
             mouse_positionY = mouse_position[1]
 
@@ -215,7 +213,7 @@ while True:
                 botao_sprites.mudar_cor()
                 maquina_sprites.iniciar_maquina()
 
-        if event.type == KEYDOWN:
+        elif event.type == KEYDOWN:
             botao_sprites.voltarCorVermelha()
             maquina_sprites.desligar_maquina()
 
