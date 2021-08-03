@@ -78,7 +78,7 @@ body{
     left: 0.5rem;
     top: 5px;
 }
-.link_simulador{
+.link_SC{
     color: white;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
@@ -87,19 +87,7 @@ body{
     left: 4.5rem;
     bottom: 16px;
 }
-.link_simulador:hover{
-    color: gray;
-}
-.link_calculadora{
-    color: white;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    position: relative;
-    left: 11rem;
-    bottom: 37px; 
-}
-.link_calculadora:hover{
+.link_SC:hover{
     color: gray;
 }
 .link_ref{
@@ -109,7 +97,7 @@ body{
     text-decoration: none;
     position: relative;
     left: 18.3rem;
-    bottom: 57px;
+    bottom: 37px;
 }
 .link_ref:hover{
     color: gray;
@@ -142,7 +130,6 @@ body{
     height: 480px;
   
 }
-
 .titles{
     font-size: 38px;
     font-family:monospace;
@@ -202,5 +189,10 @@ body{
     background-color: rgb(65, 64, 64);
 }
 
+@media screen and (max-width:400px){
+    .header{
+        height: 10rem;
+    }
+    .
 
-
+}
