@@ -52,12 +52,14 @@ body{
 }
 .search_icon{
     width: 20px;
+    cursor: pointer;
     position: relative;
     left:29rem;
     bottom: 21px;
 }
 .submit_button{
     background-color: transparent; 
+    cursor: pointer;
     position: absolute; 
     color: transparent;
     border: transparent;
@@ -78,7 +80,7 @@ body{
     left: 0.5rem;
     top: 5px;
 }
-.link_SC{
+.link_simulador{
     color: white;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
@@ -87,7 +89,19 @@ body{
     left: 4.5rem;
     bottom: 16px;
 }
-.link_SC:hover{
+.link_simulador:hover{
+    color: gray;
+}
+.link_calculadora{
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: relative;
+    left: 11rem;
+    bottom: 37px; 
+}
+.link_calculadora:hover{
     color: gray;
 }
 .link_ref{
@@ -97,7 +111,7 @@ body{
     text-decoration: none;
     position: relative;
     left: 18.3rem;
-    bottom: 37px;
+    bottom: 57px;
 }
 .link_ref:hover{
     color: gray;
@@ -127,9 +141,10 @@ body{
 }
 .background_capa{
     width: 100%;
-    height: 480px;
+    height: 500px;
   
 }
+
 .titles{
     font-size: 38px;
     font-family:monospace;
@@ -188,4 +203,6 @@ body{
 .link_topo:hover{
     background-color: rgb(65, 64, 64);
 }
+
+
 
