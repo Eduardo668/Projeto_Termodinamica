@@ -11,7 +11,7 @@
 <body id="body" onscroll="opacityHeader()">
     <div id="header_site" class="header">
         <div class="logo_position">
-            <img style="width: 190px;" src="./IMAGE/SENAI-logo.png" alt="senai_logo">
+            <a href="https://sc.senai.br"><img style="width: 190px;" src="./IMAGE/SENAI-logo.png" alt="senai_logo"></a>
         </div>
         <div>
             <img class="termometro" src="./IMAGE/imagem_2021-06-29_143558-removebg-preview.png" alt="">
@@ -27,7 +27,7 @@
         </div>
         <nav class="nav_header">
             <ul class="links_header">
-                <li class="li"><a class="link_home" href="./index.html">Home</a></li>
+                <li class="li"><a class="link_home" href="./index.html">Inicio</a></li>
                 <li class="li"><a class="link_simulador" href="./simulador.html">Simulador</a></li>
                 <li class="li"><a class="link_calculadora" href="">Calculadora</a></li>
                 <li class="li"><a class="link_ref" href="./referencias.html">Referencias</a></li>
@@ -38,22 +38,33 @@
         <img class="background_capa" src="./IMAGE/locomotiva-wallpaper.jpg" alt="">
     </div>
     <div class="container">
-        <h2 style="position:relative;top:30px;" class="titles">Calculadora de Rendimento</h2>
+        <h2 style="position:relative;top:50px;" class="titles">Calculadora de Eficiência energética</h2>
         <div class="div_calculadoraRendimento">
+            <p class="rendimento">n</p>
+            <p id="simboloDeIgual" style="display: none;" class="SimboloDeIgual">=</p>
             <div id="displayCalculadoraRendimento" class="display"></div>
             <div class="div_Trabalho">
                 <label class="qtd_trabalho">W</label>
-                <input id="trabalho_input" class="input_trabalho" type="number">
+                <input onfocus="zerarInputTrabalho()" value="0" id="trabalho_input" class="input_trabalho" type="number">
             </div>
            <div class="div_Energia">
                 <label class="energia_termica">Qq</label>
-                <input id="energia_input" class="input_energia" type="number">
+                <input onfocus="zerarInputCalor()" value="0" id="energia_input" class="input_energia" type="number">
            </div>
            <button class="button_calcular" onclick="calculadoraRendimento()">Calcular</button>
            <button class="button_limpar" onclick="limparResultadoRendimento()">Limpar</button>
            
 
         </div>
+        <div class="div_legendaCalculadoraRendimento">
+            <h3 class="legendaCalculadoraTitulo">Legenda:</h3>
+            <ul class="lis">
+                <p class="trabalho">W</p><label class="legendaTrabalho">- Trabalho da máquina térmica(J)</label>
+                <p class="calor">Qq</p><label class="legendaCalor">- Calor cedido pela fonte quente(J)</label>
+                <p class="rendimentoLegenda">n</p><label class="legendaRendimento">- Rendimento da máquina térmica</label>
+            </ul>
+        </div>
+        
     </div>
     <div class="footer">
         <p style="font-size: 16px;color: white;font-family: Arial, Helvetica, sans-serif;
@@ -69,8 +80,8 @@
                 <li class="li"><a class="link_proxima" href="./referencias.html">Proxima Pagina</a></li>
             </ul>
         </nav> 
-        <img style="width: 350px;position: relative;left: 58rem;
-        bottom: 15px;" src="./IMAGE/SENAI-logo.png" alt="">
+        <a href="https://sc.senai.br"><img style="width: 350px;position: relative;left: 58rem;
+        bottom: 15px;" src="./IMAGE/SENAI-logo.png" alt=""></a>
     </div>
     <script src="./JS/main.js"></script>
 </body>

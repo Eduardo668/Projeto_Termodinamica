@@ -52,12 +52,14 @@ body{
 }
 .search_icon{
     width: 20px;
+    cursor: pointer;
     position: relative;
     left:29rem;
     bottom: 21px;
 }
 .submit_button{
     background-color: transparent; 
+    cursor: pointer;
     position: absolute; 
     color: transparent;
     border: transparent;
@@ -139,7 +141,7 @@ body{
 }
 .background_capa{
     width: 100%;
-    height: 480px;
+    height: 500px;
   
 }
 
