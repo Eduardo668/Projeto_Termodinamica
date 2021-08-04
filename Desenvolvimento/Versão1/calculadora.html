@@ -45,11 +45,11 @@
             <div id="displayCalculadoraRendimento" class="display"></div>
             <div class="div_Trabalho">
                 <label class="qtd_trabalho">W</label>
-                <input onfocus="zerarInputTrabalho()" value="0" id="trabalho_input" class="input_trabalho" type="number">
+                <input  onblur="talvezVoltarOzeroTrabalho()" onfocus="zerarInputTrabalho()" value="0" id="trabalho_input" class="input_trabalho" type="number">
             </div>
            <div class="div_Energia">
                 <label class="energia_termica">Qq</label>
-                <input onfocus="zerarInputCalor()" value="0" id="energia_input" class="input_energia" type="number">
+                <input onblur="talvezVoltarOzeroCalor()" onfocus="zerarInputCalor()" value="0" id="energia_input" class="input_energia" type="number">
            </div>
            <button class="button_calcular" onclick="calculadoraRendimento()">Calcular</button>
            <button class="button_limpar" onclick="limparResultadoRendimento()">Limpar</button>
@@ -80,8 +80,7 @@
                 <li class="li"><a class="link_proxima" href="./referencias.html">Proxima Pagina</a></li>
             </ul>
         </nav> 
-        <a href="https://sc.senai.br"><img style="width: 350px;position: relative;left: 58rem;
-        bottom: 15px;" src="./IMAGE/SENAI-logo.png" alt=""></a>
+        <a href="https://sc.senai.br"><img class="senai_logo_footer" src="./IMAGE/SENAI-logo.png" alt=""></a>
     </div>
     <script src="./JS/main.js"></script>
 </body>

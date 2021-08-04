@@ -141,7 +141,7 @@ body{
 }
 .background_capa{
     width: 100%;
-    height: 500px;
+    height: 480px;
   
 }
 
@@ -209,7 +209,9 @@ body{
 .link_topo:hover{
     background-color: rgb(65, 64, 64);
 }
-
+.senai_logo_header{
+    width: 190px;
+}
 @media screen and (min-width:1600px){
     .container{
             position: absolute;
@@ -243,6 +245,44 @@ body{
         position: relative;
         left: 45rem;
     }
+    
 }
 
+@media screen and (max-width:500px){
+    .background_capa{
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        left: 0;
+    }
+    .container{
+        position: absolute;
+        left: 15px;
+        width: 350px;
+        top: 170px;
+    }
+    .search_bar{
+        display: none;
+    }
+    .header{
+        width: 30%;
+        position: fixed;
+    }
+    .titles{
+        font-size: 30px;
+    }
+    .paragrafos{
+        font-size: 12px;
+        font-weight: 1000 ;
+        line-height: 30px;
+    
+    }
+    .senai_logo_header{
+        display: none;
+    }
+    .nav_header{
+        display: none;
+    }
+
+}
 

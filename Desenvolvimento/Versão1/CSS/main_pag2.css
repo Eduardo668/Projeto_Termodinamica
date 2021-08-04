@@ -230,6 +230,12 @@ body{
 .link_topo:hover{
     background-color: rgb(65, 64, 64);
 }
+.senai_logo_footer{
+    width: 350px;
+    position: relative;
+    left: 59rem
+
+}
 @media screen and (min-width:1600px){
     .container{
             position: absolute;
