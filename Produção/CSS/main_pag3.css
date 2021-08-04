@@ -402,3 +402,38 @@ body{
     bottom: 45px;
     left: 35px;
 }
+
+@media screen and (min-width:1600px){
+    .container{
+            position: absolute;
+            left: 400px;
+    }
+    .nav_header{
+        width: 400px;
+    }
+    .senai_logo_footer{
+        position: relative;
+        left: 74rem;
+        bottom: 20px;
+    }
+    .link_proxima{
+        position: relative;
+        left: 45rem;
+    }
+    .link_anterior{
+        position: relative;
+        left: 34rem;
+    }
+    .link_topo{
+        position: relative;
+        left: 38.5rem;
+    }
+    .git_hub_icon{
+        position: relative;
+        left: 45rem;
+    }
+    .linkedin_logo{
+        position: relative;
+        left: 45rem;
+    }
+}
