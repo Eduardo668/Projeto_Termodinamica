@@ -233,6 +233,12 @@ body{
     top: 200px;
     right: 100px;
 }
+.senai_logo_footer{
+    width: 350px;
+    position: relative;
+    left: 58rem
+
+}
 @media screen and (min-width:1600px){
     .container{
             position: absolute;

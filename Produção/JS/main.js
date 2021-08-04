@@ -23,6 +23,8 @@ const calculadoraRendimento = function(){
     else{
         display.textContent = rendimento.toFixed(2) 
     }
+
+
     
 }
 // Executa quando é clicado o botão limpar - Tem a Função de Remover o resultado e os valores digitados
@@ -38,4 +40,12 @@ const zerarInputTrabalho = function(){
 }
 const zerarInputCalor = function(){
     document.getElementById('energia_input').value = undefined
+}
+
+const talvezVoltarOzeroTrabalho = function(){
+    let input_trabalho = document.getElementById('trabalho_input').value
+    if (input_trabalho == undefined){
+        input_trabalho = 0
+        console.log('oi')
+    }
 }

@@ -402,6 +402,12 @@ body{
     bottom: 45px;
     left: 35px;
 }
+.senai_logo_footer{
+    width: 350px;
+    position: relative;
+    left: 58rem
+
+}
 
 @media screen and (min-width:1600px){
     .container{
