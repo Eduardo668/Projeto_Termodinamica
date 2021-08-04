@@ -247,6 +247,28 @@ body{
     }
     
 }
+.img_maquinaTermica{
+    width: 300px; 
+    position: relative;
+    top: 50px;
+}
+.gif_maquinaTermica{
+    width: 400px; 
+    position: relative; 
+    top: 20px;
+}
+.contatosFooter{
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+.formula1lei{
+    position: relative;
+    top: 100px;
+}
 
 @media screen and (max-width:500px){
     .background_capa{
@@ -263,10 +285,14 @@ body{
     }
     .search_bar{
         display: none;
+        position: relative;
+        left: 0;
+
     }
     .header{
-        width: 30%;
+        width: 100%;
         position: fixed;
+        top: 0px;
     }
     .titles{
         font-size: 30px;
@@ -283,6 +309,73 @@ body{
     .nav_header{
         display: none;
     }
+    .search_icon{
+        position: relative;
+        left: 0;
+        display: none;
+    }
+    .linkedin_logo{
+        position: absolute;
+        left: 130px;
+        top: 3px;
+      
+    }
+    .git_hub_icon{
+        position: relative;
+        left: 160px;
+    }
+    .link_anterior{
+        font-size: 15px;
+        position: relative;
+        left: 60px;
+        top: 18px;
+
+        
+     }
+    .link_proxima{
+        font-size: 15px;
+        position: relative;
+        left: 180px;
+        top: 0px;
+    }
+    .link_topo{
+        font-size: 15px;
+        position: relative;
+        left: 110px;
+        top: 0px;
+        
+    }
+    .senai_logo_footer{
+        position: relative;
+        left: 0;
+        display: none;
+    }
+    .img_maquinaTermica{
+        width: 200px;
+    }
+    .gif_maquinaTermica{
+        width: 300px;
+    }
+    .footer{
+        height: 18rem;
+        width: 100%;
+        position: relative;
+        top: 320rem;
+    }
+    .contatosFooter{
+        font-size: 13px;
+        position: relative;
+        top: 13rem;
+    }
+    .formula1lei{
+        width: 300px;
+        position: relative;
+        top: 60px;
+    }
+    .container{
+        height: 304rem;
+    }
+   
 
 }
 
