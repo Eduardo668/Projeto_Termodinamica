@@ -12,16 +12,20 @@ const opacityHeader = function(){
 const calculadoraRendimento = function(){
     let trabalho = document.getElementById('trabalho_input').value
     let calor = document.getElementById('energia_input').value
+    let deltaUDisplay = document.getElementById('delta')
     let display = document.getElementById('displayCalculadoraRendimento')
     let simboloDeIgual = document.getElementById('simboloDeIgual').style.display = "initial"
+    let simboloDeIgualdeltaU = document.getElementById('simboloDeIgualdeltaU').style.display = "initial"
     let rendimento = trabalho / calor
+    let deltaU = trabalho - calor
     console.log(trabalho)
     console.log(calor)
     if (trabalho && calor == 0){
-        display.textContent = 0
+        display.innerHTML = 0 + '<p id="delta" class="deltaUResultado"> '+0+'</p>'
+        
     }
     else{
-        display.textContent = rendimento.toFixed(2) 
+        display.innerHTML = rendimento.toFixed(2) + '<p id="delta" class="deltaUResultado"> '+deltaU+'</p>'  
     }
 
 
@@ -33,6 +37,7 @@ const limparResultadoRendimento = function(){
     document.getElementById('trabalho_input').value = 0
     document.getElementById('energia_input').value = 0
     document.getElementById('simboloDeIgual').style.display = "none"
+    document.getElementById('simboloDeIgualdeltaU').style.display = "none"
 }
 
 const zerarInputTrabalho = function(){
@@ -49,3 +54,4 @@ const talvezVoltarOzeroTrabalho = function(){
         console.log('oi')
     }
 }
+

@@ -136,14 +136,14 @@ body{
     text-align: center;
     background-color: white;
     width: 750px;
-    height: 73rem;
+    height: 88rem;
     position: absolute;
     left: 18rem;
     top: 280px;
 }
 .background_capa{
     width: 100%;
-    height: 480px;
+    height: 500px;
   
 }
 
@@ -162,7 +162,7 @@ body{
     width: 100%;
     height: 10rem;
     position:absolute;
-    top: 95rem;
+    top: 110rem;
 }
 .link_anterior{
     padding: 11px;
@@ -216,7 +216,7 @@ body{
     width: 400px;
     border: solid 2px black;
     border-radius: 12px;
-    height: 450px;
+    height: 530px;
     position: relative;
     left: 180px;
     top: 100px;
@@ -249,7 +249,7 @@ body{
     text-align: center;
     background-color: white;
     width: 360px;
-    height: 95px;
+    height: 200px;
     position: relative;
     top: 15px;
     left: 20px;
@@ -262,7 +262,7 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: 60px;
+    top: 30px;
     right: 80px;
 }
 
@@ -274,12 +274,61 @@ body{
     height: 70px;
     outline: none;
     width: 100px;
-    top: 150px;
+    top: 120px;
     right: 175px;
 }
 .div_Trabalho{
     position: relative;
     left: 40px;
+}
+.deltaU{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 174, 226);
+    width: 40px;
+    color: white;
+    padding: 20px;
+    border-radius: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 24px;
+}
+.deltaUResultado{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    z-index: 2;
+}
+.simboloDeIgualdeltaU{
+    position: absolute;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 110px;
+    top: 120px;
+    z-index: 2;
+}
+.deltaULegenda{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 174, 226);
+    width: 30px;
+    color: white;
+    padding: 20px;
+    border-radius: 300px;
+    position: relative;
+    top:110px ;
+    left: 150px;
+}
+.legendaDeltaU{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 64px;
+    left: 55px;
 }
 .energia_termica{
     font-size: 40px;
@@ -289,7 +338,7 @@ body{
     padding: 20px;
     border-radius: 300px;
     position: relative;
-    bottom: 13px;
+    bottom: 40px;
     left: 30px;
 }
 .div_Energia{
@@ -305,7 +354,7 @@ body{
     height: 70px;
     outline: none;
     width: 100px;
-    top: 76px;
+    top: 50px;
     right: 65px;
 }
 .button_calcular{
@@ -315,7 +364,7 @@ body{
     border-radius: 10px;
     outline: none;
     position: relative;
-    top: 120px;
+    top: 100px;
     right: 10px;
 }
 .button_calcular:hover{
@@ -328,7 +377,7 @@ body{
     border: solid 2px black;
     border-radius: 10px;
     position: relative;
-    top: 120px;
+    top: 100px;
     right: 0px; 
 }
 .button_limpar:hover{
@@ -336,7 +385,7 @@ body{
 }
 .legendaCalculadoraTitulo{
     position: relative;
-    top: 150px;
+    top: 210px;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -355,7 +404,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     left: 150px;
-    bottom: 30px;
+    top: 50px;
 }
 .calor{
     font-size: 20px;
@@ -367,6 +416,7 @@ body{
     border-radius: 300px;
     position: relative;
     left: 150px;
+    top: 70px;
    
 }
 .rendimentoLegenda{
@@ -379,27 +429,27 @@ body{
     background-color: orange;
     position: relative;
     left: 160px;
-    top: 12px;
+    top: 92px;
 }
 .legendaRendimento{
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    bottom: 40px;
+    top: 40px;
     left: 30px;
 }
 .legendaTrabalho{
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    bottom: 75px;
+    top: 0px;
     left: 20px;
 }
 .legendaCalor{
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    bottom: 45px;
+    top: 23px;
     left: 35px;
 }
 .senai_logo_footer{
