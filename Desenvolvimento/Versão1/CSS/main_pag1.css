@@ -272,14 +272,18 @@ body{
 
 @media screen and (max-width:500px){
     .background_capa{
-        width: 100%;
+        width: 106%;
         height: 300px;
         position: absolute;
         left: 0;
     }
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .container{
         position: absolute;
-        left: 15px;
+        left: 90px;
         width: 350px;
         top: 170px;
     }
@@ -316,13 +320,13 @@ body{
     }
     .linkedin_logo{
         position: absolute;
-        left: 130px;
+        left: 210px;
         top: 3px;
       
     }
     .git_hub_icon{
         position: relative;
-        left: 160px;
+        left: 240px;
     }
     .link_anterior{
         font-size: 15px;
