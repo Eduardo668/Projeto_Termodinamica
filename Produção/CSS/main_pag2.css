@@ -143,7 +143,7 @@ body{
 }
 .background_capa{
     width: 100%;
-    height: 480px;
+    height: 500px;
   
 }
 .titles{
@@ -231,9 +231,10 @@ body{
     background-color: rgb(65, 64, 64);
 }
 .senai_logo_footer{
-    width: 350px;
+    width: 280px;
     position: relative;
-    left: 59rem
+    left: 59rem;
+    bottom: 10px;
 
 }
 @media screen and (min-width:1600px){

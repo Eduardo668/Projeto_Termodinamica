@@ -44,15 +44,13 @@
             <p class="deltaU">ΔU</p>
             <p id="simboloDeIgual" style="display: none;" class="SimboloDeIgual">=</p>
             <p id="simboloDeIgualdeltaU" style="display: none;" class="simboloDeIgualdeltaU">=</p>
-            <div id="displayCalculadoraRendimento" class="display">
-                <p id="delta" class="deltaUResultado"></p>
-            </div>
+            <div id="displayCalculadoraRendimento" class="display"></div>
             <div class="div_Trabalho">
                 <label class="qtd_trabalho">W</label>
                 <input  onblur="talvezVoltarOzeroTrabalho()" onfocus="zerarInputTrabalho()" value="0" id="trabalho_input" class="input_trabalho" type="number">
             </div>
            <div class="div_Energia">
-                <label class="energia_termica">Qq</label>
+                <label class="energia_termica">Q</label>
                 <input onblur="talvezVoltarOzeroCalor()" onfocus="zerarInputCalor()" value="0" id="energia_input" class="input_energia" type="number">
            </div>
            <button class="button_calcular" onclick="calculadoraRendimento()">Calcular</button>
@@ -64,7 +62,7 @@
             <h3 class="legendaCalculadoraTitulo">Legenda:</h3>
             <ul class="lis">
                 <p class="trabalho">W</p><label class="legendaTrabalho">- Trabalho da máquina térmica(J)</label>
-                <p class="calor">Qq</p><label class="legendaCalor">- Calor cedido pela fonte quente(J)</label>
+                <p class="calor">Q</p><label class="legendaCalor">- Calor cedido pela fonte quente(J)</label>
                 <p class="rendimentoLegenda">n</p><label class="legendaRendimento">- Rendimento da máquina térmica</label>
                 <p class="deltaULegenda">ΔU</p><label class="legendaDeltaU">- Variação de energia interna(cal ou J)</label>
             </ul>

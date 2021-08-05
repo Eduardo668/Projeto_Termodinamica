@@ -21,11 +21,11 @@ const calculadoraRendimento = function(){
     console.log(trabalho)
     console.log(calor)
     if (trabalho && calor == 0){
-        display.innerHTML = 0 + '<p id="delta" class="deltaUResultado"> '+0+'</p>'
+        display.innerHTML = 0 + '<span id="delta" class="deltaUResultado"> '+0+'</span>'
         
     }
     else{
-        display.innerHTML = rendimento.toFixed(2) + '<p id="delta" class="deltaUResultado"> '+deltaU+'</p>'  
+        display.innerHTML = rendimento.toFixed(2) + '<span id="delta" class="deltaUResultado"> '+deltaU+'</span>'  
     }
 
 
@@ -44,7 +44,7 @@ const zerarInputTrabalho = function(){
     document.getElementById('trabalho_input').value = undefined
 }
 const zerarInputCalor = function(){
-    document.getElementById('energia_input').value = undefined
+    document.getElementById('energia_input').value = undefined 
 }
 
 const talvezVoltarOzeroTrabalho = function(){

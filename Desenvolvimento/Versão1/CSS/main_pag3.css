@@ -412,7 +412,7 @@ body{
     background-color: blueviolet;
     color: white;
     padding: 20px;
-    width:30px ;
+    width:20px ;
     border-radius: 300px;
     position: relative;
     left: 150px;
@@ -453,12 +453,12 @@ body{
     left: 35px;
 }
 .senai_logo_footer{
-    width: 350px;
+    width: 280px;
     position: relative;
-    left: 58rem
+    left: 59rem;
+    bottom: 10px;
 
 }
-
 @media screen and (min-width:1600px){
     .container{
             position: absolute;

@@ -163,9 +163,10 @@ body{
     top: 365rem;
 }
 .senai_logo_footer{
-    width: 350px;
+    width: 280px;
     position: relative;
-    left: 58rem
+    left: 59rem;
+    bottom: 10px;
 
 }
 .link_anterior{
